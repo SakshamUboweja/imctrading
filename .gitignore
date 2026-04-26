@@ -1,0 +1,22 @@
+.DS_Store
+
+# Local editor / agent state
+.cursor/
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Logs & outputs
+backtests/*.log
+backtests/__pycache__/
+_sweep/__pycache__/
+
